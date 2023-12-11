@@ -1,9 +1,9 @@
 .popup_text{
-    height: 750px;
+    height: 85% !important;
     overflow-y: auto;
     scroll-snap-align: start;
     padding: 15px;
-    align-items: flex-start;
+    align-items: flex-start !important;
     flex-direction: column;
     padding: 10px;
 }
@@ -122,9 +122,8 @@
 .popup_content {
     background-color: white;
     color: black;
-    min-width: 700px;
-    max-width: 1700px;
-    min-height: 40vh;
+    width: clamp(300px,80vw,1800px) !important;
+    height: clamp(300px,80vh,1000px) !important;
     border-radius: 25px;
     padding: 25px;
 }
@@ -193,6 +192,9 @@
     margin-bottom: 15px;
 }
 
+video{
+    margin: 0 auto;
+}
 
 #open_popup_button{
     cursor: pointer;
@@ -204,8 +206,7 @@
 
 .theory_eom{
     flex-direction: column;
-    height: 540px;
-    overflow-y: auto;
+    height: initial !important;
     margin-right: 25px;
     
 }
@@ -217,7 +218,6 @@
     padding: 15px;
     margin-left: 50px;
     border-radius: 35px;
-
 }
 
 .zoom_popup{
@@ -278,7 +278,8 @@
 }
 
 .popup_text img{
-    height: 100%;
+    height: auto;
+    width: 100% !important;
 }
 
 .left_side video{

@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    font-size: clamp(20px,1.7vw,25px) !important;
+}
+
 .theory_eom{
     margin-top: 25px !important;
     margin-bottom: 15vh !important;

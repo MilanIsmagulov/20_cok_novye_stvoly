@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    font-size: clamp(20px,1.7vw,25px) !important;
+}
+
 .second_draw{
     width: 90%;
 }
@@ -201,6 +205,15 @@ input:disabled {
 
     }
 
+    .popup_draw_and_text{
+        flex-direction: column !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .theory_eom p{
+        padding-top: 15px !important;
+        padding-bottom: 5px !important;
+    }
     .answers_btn form {
         width: 700px;
         
@@ -224,7 +237,7 @@ input:disabled {
 
     .step_marker_and_buttons {
         width: 90vw;
-        padding-bottom: 0px;
+        padding-bottom: 50px !important;
         
     }
 
@@ -261,6 +274,7 @@ input:disabled {
 .theory_eom p{
     color: #000;
     font-weight: 500;
+    width: auto !important;
 }
 
 @media (max-width: 820px) {
@@ -289,6 +303,7 @@ input:disabled {
     .second{
         flex-direction: column;
     }
+    
 }
 
 .popup_draw_and_text{
@@ -302,4 +317,9 @@ input:disabled {
     border-radius: 0;
 
     height: 370px;
+}
+
+.popup_draw_and_text:last-child{
+    
+    flex-wrap: wrap !important;
 }

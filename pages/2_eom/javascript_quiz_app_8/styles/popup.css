@@ -1,10 +1,11 @@
 .popup_text{
 
-    height: 500px;
+    height: 85% !important;
     overflow-y: auto;
     scroll-snap-align: start;
     padding: 15px;
-    justify-content: center;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
     flex-direction: column;
     padding: 10px;
 }
@@ -123,10 +124,8 @@
 .popup_content {
     background-color: white;
     color: black;
-    min-width: 400px;
-    max-width: 1700px;
-
-    min-height: 60vh;
+    width: clamp(300px,80vw,1800px) !important;
+    height: clamp(300px,80vh,1000px) !important;
     border-radius: 25px;
     padding: 25px;
 }
@@ -303,6 +302,19 @@
         height: 120px;
     }
 
+    .main_window{
+        justify-content: center !important;
+        flex-direction: column !important;
+    }
+
+    /* .popup_image2{
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+
+    .popup_image2 img{
+        margin: 0 auto !important;
+    } */
 
     .black_header h1{
         width: 50%;

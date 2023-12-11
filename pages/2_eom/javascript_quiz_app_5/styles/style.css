@@ -17,6 +17,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    font-size: clamp(20px,1.7vw,25px) !important;
+}
+
 body{
     background: #fff;
 

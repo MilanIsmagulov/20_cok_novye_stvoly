@@ -19,6 +19,10 @@ body{
     width: 100vw;
 }
 
+.popup_image2{
+    min-width: 400px;
+}
+
 .theory_for_test {
     width: 70%;
     display: flex;

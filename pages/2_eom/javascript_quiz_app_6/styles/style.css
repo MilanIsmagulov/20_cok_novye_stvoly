@@ -13,6 +13,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    font-size: clamp(25px,1.7vw,30px) !important;
+}
+
 .second_draw{
     width: 90%;
 }
@@ -200,7 +204,13 @@ input:disabled {
         width: 100%;
 
     }
-
+    .popup_draw_and_text{
+        flex-direction: column;
+    }
+    .theory_eom p{
+        padding-top: 15px !important;
+        padding-bottom: 1px !important;
+    }
     .answers_btn form {
         width: 700px;
         
@@ -224,7 +234,7 @@ input:disabled {
 
     .step_marker_and_buttons {
         width: 90vw;
-        padding-bottom: 0px;
+        padding-bottom: 50px !important;
         
     }
 

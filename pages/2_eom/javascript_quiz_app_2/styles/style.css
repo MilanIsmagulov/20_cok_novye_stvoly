@@ -20,6 +20,14 @@ body{
     overflow-x: hidden;
 }
 
+p{
+    font-size: clamp(20px,1.7vw,25px) !important;
+}
+
+.theory_eom{
+    height: initial !important;
+}
+
 .main_window{
     height: 100%;
     width: 100%;
@@ -246,12 +254,18 @@ input:disabled {
     display: flex;
     align-items: center;
     flex-direction: row;
+    width: 98% !important;
+}
+
+.theory_eom p{
+    margin: 0 !important;
 }
 
 .theory_eom img{
-    height: 600px;
-    margin-top: 700px;
+    height: auto;
+    width: 70% !important;
     width: auto;
+    margin: 0 auto !important;
     margin-left: 35px;
     margin-right: 35px;
     border-radius: 25px;
