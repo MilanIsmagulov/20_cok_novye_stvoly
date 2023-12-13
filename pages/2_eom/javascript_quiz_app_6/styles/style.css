@@ -307,9 +307,7 @@ input:disabled {
     justify-content: center;
     margin-top: 50px;
 }
-
 .image_part img{
     border-radius: 0;
-
-    height: 370px;
+    height: initial !important;
 }
