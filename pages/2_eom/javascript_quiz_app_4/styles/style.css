@@ -316,7 +316,7 @@ input:disabled {
 .image_part img{
     border-radius: 0;
 
-    height: 370px;
+    height: initial !important;
 }
 
 .popup_draw_and_text:last-child{
